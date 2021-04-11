@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Mainpage{
+  position: absolute;
+  width: 100%;
+  height:   100%;
+}
+
+.Hospital{
+  position: absolute;
+  width: 30%;
+  height: 40%;
+  border: 1px solid grey;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.A{
+  left: 5%;
+  top: 5%;
+}
+.B{
+  right: 5%;
+  top: 5%;
+}
+.C{
+  left: 5%;
+  bottom:  10%;
+}
+.D{
+  right: 5%;
+  bottom:  10%;
+}
+
+.DicomImage{
+  height: 150px;
+  width: 150px;
+  border: 0.5px solid gray;
+}
+.PublickeyArea{
+  margin-top: 5%;
+  width: 90%;
+}
+ .InputtosendNFT{
+  position:   absolute;
+  width: 30%;
+  height: 40%;
+  border: 1px solid grey;
+  border-radius: 10px;
+ }
+.Inputformheaderpos{
+  bottom:  -400px;
+  left: 5%;
+  margin-bottom: 5%;
+}
+.Inputformheader{
+  position: relative;
+  width:  100%;
+  height:  10%;
+  border-bottom:  1px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+.InputArea{
+  position: relative;
+  width:  100%;
+  height:   70%;
+  border-bottom:  1px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.TosendchoiseArea{
+  position: relative;
+  width:  100%;
+  height:    33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.SelectArea{
+  width:   70%;
+}
+.ConfirmbuttonArea{
+  position: relative;
+  width:  100%;
+  height:     20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ .Confirmbutton{
+  width:   50%;
+  height:  70%;
+ }
